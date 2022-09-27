@@ -1,0 +1,36 @@
+.background-img {
+    background-image: url('../images/project-5.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.bgLayer {
+    background-color: rgba(14, 8, 1, 0.073);
+    height: 100%;
+    width:100%;
+}
+
+#btn {
+    padding:10px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+#output {
+    width:30%;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 700px) {
+    #output {
+        width:90%;
+        font-size: 25px;
+        line-height: 1.5;
+        padding-top: 50px ;
+    }
+    .container{
+        padding: 50px 0px;
+    }
+    
+}
